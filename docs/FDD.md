@@ -140,7 +140,7 @@ Base: `/api/v1` (montagem em `src/app.ts`). Todos os endpoints de gestão usam `
   "url": "https://hooks.atlascomercial.com.br/oms",
   "events": ["SHIPPED", "DELIVERED"],
   "active": true,
-  "secret": "whsec_9f86d081884c7d659a2feaa0c55ad015",
+  "secret": "<secret-gerada-pela-plataforma>",
   "createdAt": "2026-10-02T12:00:00.000Z"
 }
 ```
@@ -218,7 +218,7 @@ Sem corpo de request (o bloco acima representa a ausência de corpo). Resposta s
 ```json
 {
   "id": "0b8e7c3a-5d2f-4e61-8a9b-7c6d5e4f3a2b",
-  "secret": "whsec_2c26b46b68ffc68ff99b453c1d304134",
+  "secret": "<nova-secret-gerada-pela-plataforma>",
   "previousSecretExpiresAt": "2026-10-03T13:30:00.000Z"
 }
 ```
